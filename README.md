@@ -83,6 +83,37 @@ Open the local URL shown by Streamlit, usually:
 http://localhost:8501
 ```
 
+## Deploy On Streamlit Community Cloud
+
+1. Push this project to a GitHub repository.
+2. Go to Streamlit Community Cloud:
+
+```text
+https://share.streamlit.io
+```
+
+3. Click `Create app`.
+4. Choose your GitHub repository and branch.
+5. Set the main file path to:
+
+```text
+app.py
+```
+
+6. Keep Python version as the default unless your deployment logs require changing it.
+7. Click `Deploy`.
+
+The app uses:
+
+```text
+requirements.txt
+.streamlit/config.toml
+models/
+assets/
+```
+
+These files must be committed to GitHub because Streamlit Cloud builds the app from the repository.
+
 ## Train The Models
 
 ```powershell
