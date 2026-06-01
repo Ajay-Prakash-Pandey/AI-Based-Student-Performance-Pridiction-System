@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build output
+build/
+dist/
+*.egg-info/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local root-level ML artifacts
+/student_*.pkl
+*.joblib
+*.model
+*.onnx
+
+# Local collected or private training data
+dataset/indian_student_records*.csv
+!dataset/indian_student_records_template.csv
+
+# Logs and temporary files
+*.log
+*.tmp
+tempCodeRunnerFile.py
